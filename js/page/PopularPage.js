@@ -28,6 +28,7 @@ export default class PopularPage extends Component {
 class PopularTab extends Component {
     render() {
         const {tabLabel} = this.props;
+        console.log("navigation pop: "+JSON.stringify(this.props.navigation));
         return (
 
             <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>

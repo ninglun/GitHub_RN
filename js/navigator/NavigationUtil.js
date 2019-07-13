@@ -9,6 +9,7 @@ export default class NavigationUtil {
      */
     static goPage(params,page){
         const navigation=NavigationUtil.navigation;
+        console.log("navigation: "+JSON.stringify(navigation));
         if (!navigation){
             console.log("navigation can not be null");
             return;
@@ -19,6 +20,7 @@ export default class NavigationUtil {
                 ...params
             }
         )
+        console.log("params: "+JSON.stringify(params));
     }
     /**
      * 返回上一页
