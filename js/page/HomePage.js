@@ -12,7 +12,7 @@ class HomePage extends Component {
     }
     componentWillUnmount() {
         BackHandler.removeEventListener("hardwareBackPress", this.onBackPress);
-
+ 
     }
     onBackPress = () => {
         const {dispatch, nav} = this.props;
