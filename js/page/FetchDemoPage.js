@@ -55,7 +55,7 @@ export default class FetchDemoPage extends Component {
                     <Button
                         title='获取'
                         onPress={()=>{
-                            this.loadData2();
+                            this.loadData();
                         }}
                     />
                 </View>
