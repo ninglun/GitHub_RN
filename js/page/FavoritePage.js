@@ -19,6 +19,8 @@ class FavoritePage extends Component {
         );
     }
 }
+
+
 const mapStateToProps = state =>({
 
 });
