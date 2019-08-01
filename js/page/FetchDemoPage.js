@@ -10,16 +10,16 @@ export default class FetchDemoPage extends Component {
             showText: ''
         }
     }
-    loadData() {
-        let url=`https://api.github.com/search/repositories?q=${this.searchKey}`;
-        fetch(url)
-            .then(response => response.text())
-            .then(responseText => {
-                this.setState({
-                    showText: responseText
-                })
-            })
-    }
+    // loadData() {
+    //     let url=`https://api.github.com/search/repositories?q=${this.searchKey}`;
+    //     fetch(url)
+    //         .then(response => response.text())
+    //         .then(responseText => {
+    //             this.setState({
+    //                 showText: responseText
+    //             })
+    //         })
+    // }
     loadData2() {
         let url=`https://api.github.com/search/repositories?q=${this.searchKey}`;
         fetch(url)

@@ -10,7 +10,7 @@ class FavoritePage extends Component {
             <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
                 <Text>FavoritePage</Text>
                 <Button
-                    title={'改变颜色'}
+                    title={'改变  颜色'}
                     onPress={()=>{
                         this.props.onThemeChange('#bfa')
                     }}
@@ -19,6 +19,8 @@ class FavoritePage extends Component {
         );
     }
 }
+
+
 const mapStateToProps = state =>({
 
 });
